@@ -49,6 +49,10 @@ public class MainColecciones {
 		return estudiantes;
 	}
 	
+	/**
+	 * Funcion para mostrar todos los estudiantes del Set.
+	 * @param estudiantes le pasamos el Set de Estudiante por parametro.
+	 */
 	private void mostrarEstudiantes(Set<Estudiante> estudiantes) {
 		System.out.println("------------TODOS LOS ALUMNOS------------");
 		for (Estudiante estudiante : estudiantes) {
@@ -63,6 +67,10 @@ public class MainColecciones {
 		}
 	}
 	
+	/**
+	 * Funcion para mostrar solo los Estudiantes que han cursado Matematicas.
+	 * @param estudiantes le pasamos el Set de Estudiante por parametro.
+	 */
 	private void mostrarSoloMatematicas(Set<Estudiante> estudiantes) {
 		System.out.println("------------SOLO CURSADO MATEMATICAS------------");
 		for (Estudiante estudiante : estudiantes) {
@@ -76,6 +84,10 @@ public class MainColecciones {
 		}
 	}
 	
+	/**
+	 * Funcion para mostrar solo los que han aprobado el curso.
+	 * @param estudiantes le pasamos el Set de Estudiante por parametro.
+	 */
 	private void mostrarSoloAprobados(Set<Estudiante> estudiantes) {
 		int nota=0;
 		double notamedia=0;
@@ -97,6 +109,11 @@ public class MainColecciones {
 		}
 	}
 	
+	/**
+	 * Funcion para borrar el Estudiante que haya suspendido Lengua del Set
+	 * @param estudiantes le pasamos el Set de Estudiante por parametro.
+	 * @return devuelve el Set de Estudiantes con los cambios ya realizados (borrado).
+	 */
 	private Set<Estudiante> borrarSuspensoLengua(Set<Estudiante> estudiantes){
 		Set<Estudiante> aBorrar=new HashSet<Estudiante>();
 		

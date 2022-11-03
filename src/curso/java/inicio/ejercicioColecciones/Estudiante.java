@@ -12,6 +12,10 @@ public class Estudiante extends Persona {
 		super(nombre, apellidos, dNI);
 		this.asignaturas = asignaturas;
 	}
+	
+	public Estudiante(String nombre, String apellidos, String dNI) {
+		super(nombre, apellidos, dNI);
+	}
 
 	//Getter y setter
 	public Set<Asignatura> getAsignaturas() {

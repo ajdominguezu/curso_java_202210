@@ -12,6 +12,10 @@ public class Asignatura {
 		this.nombre = nombre;
 		this.nota = nota;
 	}
+	public Asignatura(String nombre) {
+		super();
+		this.nombre = nombre;;
+	}
 
 	//Getter y setter
 	public String getNombre() {

@@ -89,7 +89,7 @@ public class MainColecciones {
 	 * @param estudiantes le pasamos el Set de Estudiante por parametro.
 	 */
 	private void mostrarSoloAprobados(Set<Estudiante> estudiantes) {
-		int nota=0;
+		double nota=0;
 		double notamedia=0;
 		
 		System.out.println("------------SOLO APROBADOS------------");
